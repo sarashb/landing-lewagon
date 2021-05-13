@@ -6,6 +6,36 @@ body {
     margin: 0;
 }
 
+@media (max-width: 800px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+    
+    .card-white {
+      width: auto;
+    }
+  }
+    
+  /* Container media queries */
+  @media (min-width: 500px) {
+    .container {
+      width: 400px;
+    }
+  }
+  
+  
+  @media (min-width: 800px) {
+    .container {
+      width: 600px;
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    .container {
+      width: 800px;
+    }
+  }
+
 h1, h2 {
     font-family: 'Chivo', sans-serif;
 }
@@ -81,7 +111,7 @@ a:hover {
 
 footer {
     background-color: #404042;
-    text-align: left;
+    text-align: center;
     padding: 24px 12px;
     margin-top: 30px;
     color: white;
