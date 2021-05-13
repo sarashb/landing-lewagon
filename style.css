@@ -1,119 +1,118 @@
 body {
-    font-family: 'Overpass', sans-serif;
-    font-size: 18px;
-    color: rgb(80, 80, 80);
-    background-color: rgb(230, 230, 230);
-    margin: 0;
+  font-family: "Overpass", sans-serif;
+  font-size: 18px;
+  color: rgb(80, 80, 80);
+  background-color: rgb(230, 230, 230);
+  margin: 0;
 }
 
-@media (max-width: 800px) {
-    .cards {
-      grid-template-columns: 1fr;
-    }
-    
-    .card-white {
-      width: auto;
-    }
-  }
-    
-  /* Container media queries */
-  @media (min-width: 500px) {
-    .container {
-      width: 400px;
-    }
-  }
-  
-  
-  @media (min-width: 800px) {
-    .container {
-      width: 600px;
-    }
-  }
-  
-  @media (min-width: 1000px) {
-    .container {
-      width: 800px;
-    }
-  }
-
-h1, h2 {
-    font-family: 'Chivo', sans-serif;
+h1,
+h2 {
+  font-family: "Chivo", sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: #0D1EC6;
-    font-weight: bold;
+  text-decoration: none;
+  color: #0d1ec6;
+  font-weight: bold;
 }
 
 a:hover {
-    background-color: #13184b;
-    transition: 0.3s;
+  background-color: #13184b;
+  transition: 0.3s;
 }
 
 .banner {
-    background-image: url(/images/background.jpg);
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
-    padding: 150px;
+  background-image: url(/images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 150px;
 }
 
 .banner h1 {
-    font-size: 45px;
+  font-size: 45px;
 }
 
 .banner p {
-    font-size: 24px;
-    opacity: 0.7;
-    margin-bottom: 40px;
+  font-size: 24px;
+  opacity: 0.7;
+  margin-bottom: 40px;
 }
 
 .card-white:hover {
-    color: rgb(10, 9, 9);
-    background-color: rgb(185, 181, 179);
-    transition: 0.4s;
+  color: rgb(10, 9, 9);
+  background-color: rgb(185, 181, 179);
+  transition: 0.4s;
 }
 
 .btn-blue {
-    padding: 16px 48px;
-    color:white;
-    background-color: #0D1EC6;
-    border-radius: 2px;
+  padding: 16px 48px;
+  color: white;
+  background-color: #0d1ec6;
+  border-radius: 2px;
 }
 
 .container {
-    width: 800px;
-    margin: auto;
+  width: 800px;
+  margin: auto;
 }
 
 .cards {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
 }
 
 .card-white {
-    background-color: white;
-    box-shadow: 1px 1px 10px rgb(0,0,0,0.1);
-    padding: 24px;
-    margin: 8px;
-    width: 200px;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.1);
+  padding: 24px;
+  margin: 8px;
+  width: 200px;
 }
 
 .card-white img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 4px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 footer {
-    background-color: #404042;
-    text-align: center;
-    padding: 24px 12px;
-    margin-top: 30px;
-    color: white;
+  background-color: #404042;
+  text-align: center;
+  padding: 24px 12px;
+  margin-top: 30px;
+  color: white;
 }
 
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card-white {
+    width: auto;
+  }
+}
+
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
